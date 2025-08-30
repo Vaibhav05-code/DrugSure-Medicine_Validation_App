@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "417130659263",
+    "project_id": "durgsure-mva",
+    "storage_bucket": "durgsure-mva.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417130659263:android:878fed0643ec1b6086f50a",
+        "android_client_info": {
+          "package_name": "com.example.drugsuremva"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApHnvtGU_pO76nh4vC3GDyw-MOM329LD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
