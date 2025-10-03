@@ -39,6 +39,9 @@ dependencies:
   cloud_firestore: ^6.0.0
   http: ^1.5.0
   google_fonts: ^6.3.1
+  provider: ^6.1.5
+  speech_to_text: ^7.3.0
+  font_awesome_flutter: ^10.9.1
 
 dev_dependencies:
   flutter_test:

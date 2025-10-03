@@ -1,5 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:drugsuremva/E-commers%20Screen/E_HomeScreen.dart';
+import 'package:drugsuremva/screens/mainhomeScreen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -158,7 +159,7 @@ class _CreateaccountState extends State<Createaccount> {
                                     content: Text(
                                         "Your Account Created Successfully")),
                               );
-                              Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>EHomescreen()));
+                              Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>Homescreen()));
                             } else {
                               ScaffoldMessenger.of(context).showSnackBar(
                                 SnackBar(content: Text(status)),
