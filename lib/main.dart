@@ -7,6 +7,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:drugsuremva/auth/login.dart';
+import 'doctor_consultancy/screens/doctor_list_screen.dart';
 
 import 'auth/login.dart';
 
@@ -34,7 +36,8 @@ class MyApp extends StatelessWidget {
           "/login":(context) => Login(),
           "/signup": (context) =>Createaccount(),
           "ehome":(context) => EHomescreen(),
-          "/mainhomescreen" : (context) => Homescreen()
+          "/mainhomescreen" : (context) => Homescreen(),
+          "/doctor-list": (context) => DoctorListScreen()
         },
         debugShowCheckedModeBanner: false,
         home: Login(),   // add const if LoginScreen is const constructor
